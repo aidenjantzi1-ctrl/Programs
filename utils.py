@@ -1,5 +1,5 @@
 from tabulate import tabulate
-import os, sys
+import os
 
 def clr_terminal(): os.system('cls')
 
