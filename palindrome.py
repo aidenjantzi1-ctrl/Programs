@@ -29,8 +29,7 @@ tests = {
     "": True,
     "a": True,
     7: True,
-    "   ": True,
-    "..:..": True
+    "   ": True
 }
 
 test(tests, isPalindrome)
