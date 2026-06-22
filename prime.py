@@ -7,4 +7,18 @@ def isPrime(n: int):
             return False
     return True
 
-utils.test(isPrime, 50)
+tests = {
+    2: True,
+    3: True,
+    4: False,
+    5: True,
+    11: True,
+    15: False,
+    23: True,
+    29: True,
+    30: False,
+    97: True,
+    100: False
+}
+
+utils.test(tests, isPrime)
