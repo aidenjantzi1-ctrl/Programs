@@ -1,7 +1,7 @@
 from utils import test
 
 def isPalindrome(n):
-    n = list("".join(char for char in str(n) if char.isalnum()).lower().strip())
+    n = "".join(char for char in str(n) if char.isalnum()).lower().strip()
     for index in range(len(n)):
         if n[index] != n[-index-1]:
             return False
