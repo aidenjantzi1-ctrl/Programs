@@ -7,7 +7,6 @@ def isPalindrome(n):
             return False
     return True
 
-
 tests = {
     "racecar": True,
     1234: False,
