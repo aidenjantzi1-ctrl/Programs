@@ -1,4 +1,4 @@
-import utils
+from utils import test
 
 def isPrime(n: int):
     if n <= 1: return False
@@ -21,4 +21,4 @@ tests = {
     100: False
 }
 
-utils.test(tests, isPrime)
+test(tests, isPrime)
