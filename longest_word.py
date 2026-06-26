@@ -1,5 +1,6 @@
 from utils import test
 
+
 def find_longest_word(txt_in: str) -> str:
     values = []
     for i in txt_in.splitlines():
@@ -11,15 +12,18 @@ def find_longest_word(txt_in: str) -> str:
             longest = word
     return longest
 
+
 def find_longest_word_input():
     n = int(input())
     words = []
-    for i in range(n): words.append(input())
+    for i in range(n):
+        words.append(input())
     longest = words[0]
     for word in words:
         if len(word) > len(longest):
             longest = word
     print(longest)
+
 
 tests = {
     """3
