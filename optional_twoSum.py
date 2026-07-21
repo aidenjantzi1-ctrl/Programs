@@ -31,7 +31,7 @@ def two_sum_hash(arr: list, target: int) -> list:
 def two_sum_pointers(arr: list, target: int) -> list:
     leftIndex = 0
     rightIndex = len(arr) - 1
-    for _ in arr:
+    while leftIndex < rightIndex:
         twoSum = arr[leftIndex] + arr[rightIndex]
         if twoSum == target:
             return [leftIndex + 1, rightIndex + 1]
