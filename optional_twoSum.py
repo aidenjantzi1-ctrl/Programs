@@ -42,8 +42,8 @@ def two_sum_pointers(arr: list, target: int) -> list:
     return [-1, -1]
 
 if __name__ == "__main__":
-    example_arr = list(range(1, 1000))
-    example_target = 1801
+    example_arr = list(range(1, 100000))
+    example_target = 1999854
     print(f"arr={example_arr}, target={example_target}\n")
 
     print("Hash Map:")
